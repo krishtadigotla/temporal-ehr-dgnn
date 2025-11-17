@@ -211,37 +211,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
-########################
-# PROJECT-SPECIFIC IGNORE
-########################
-
-# OS junk
-.DS_Store
-
-# Data artifacts
-data/processed/*
-data/*.pt
-data/*.csv
-
-# Keep only raw input dataset
-!data/full_cohort_data.csv
-
-# Model weights
-models/*.pt
-models/*.pkl
-
-# Training / Evaluation output
-results/*
-metrics.json
-
-# Figures
-*.png
-*.jpg
-
-# Logs
-*.log
-
-# Temporary test files
-*.tmp
-*blablah*
