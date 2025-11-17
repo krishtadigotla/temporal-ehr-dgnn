@@ -1,3 +1,9 @@
+# allow tracking of models and results
+!models/
+!models/*.pt
+!results/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
